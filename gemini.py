@@ -2,7 +2,7 @@ import json
 import urequests
 
 
-gemini_api_key = "AIzaSyB4_tLmDuHMv-vF8KdYMlCX6IxtNWGrMSE"
+gemini_api_key = "your_api_key"
 gemini_url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent?key={gemini_api_key}"
 
 def send_prompt_to_gemini(prompt):
